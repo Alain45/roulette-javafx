@@ -1,10 +1,10 @@
-package application;
+package Roulette;
 import java.util.ArrayList;
 
 public class Bets {
 	
 	private class Bet{
-		String name = "";
+		//String name = "";
 		int stake = 0;
 		int[] numbers = null;
 	}
@@ -19,11 +19,10 @@ public class Bets {
 	private ArrayList<Bet[]> dcolumn = new ArrayList<>();
 	private ArrayList<Bet[]> ddozen = new ArrayList<>();
 	
-	private int red = 0;
-	private int black = 0;
-	private int even = 0;
-	private int odd = 0;
-	private int low = 0;
-	private int high = 0;
-	
+	private Bet red = null;
+	private Bet black = null;
+	private Bet even = null;
+	private Bet odd = null;
+	private Bet low = null;
+	private Bet high = null;
 }
